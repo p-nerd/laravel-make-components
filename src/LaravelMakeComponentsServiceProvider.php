@@ -2,9 +2,9 @@
 
 namespace PNerd\LaravelMakeComponents;
 
+use PNerd\LaravelMakeComponents\Commands\LaravelMakeComponentsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use PNerd\LaravelMakeComponents\Commands\LaravelMakeComponentsCommand;
 
 class LaravelMakeComponentsServiceProvider extends PackageServiceProvider
 {
